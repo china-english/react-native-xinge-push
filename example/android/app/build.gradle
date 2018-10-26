@@ -143,7 +143,7 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-xinge-push')
+    compile project(':react-native-xinge-push-fei')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:26.1.0"
     compile "com.facebook.react:react-native:+"  // From node_modules

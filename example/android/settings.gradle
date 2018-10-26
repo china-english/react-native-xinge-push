@@ -1,5 +1,5 @@
 rootProject.name = 'example'
-include ':react-native-xinge-push'
-project(':react-native-xinge-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-xinge-push/android')
+include ':react-native-xinge-push-fei'
+project(':react-native-xinge-push-fei').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-xinge-push-fei/android')
 
 include ':app'

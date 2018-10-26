@@ -1,39 +1,13 @@
-## TODO
-- [x] 升级信鸽Android SDK 到 v3.2.2
-- [x] 适配华为官方推送通道
-- [x] 适配小米官方推送通道
-- [x] 适配魅族官方推送通道
-- [x] 升级信鸽iOS SDK 到 v3.1.0
-
-## 版本对照表
-react-native-xinge-push | 信鸽SDK（Android） | 信鸽SDK（iOS）
----|---|---
-0.6 | 3.2.2 | 3.1.1
-0.4～0.5 | 3.2.2 | 2.5.0
-0.3 | 3.1.0 | 2.5.0
-
-
 ## install
 ```
-npm install --save react-native-xinge-push
+npm install --save react-native-xinge-push-fei
 ```
 
 ## link
 
 ```
-react-native link react-native-xinge-push
+react-native link react-native-xinge-push-fei
 ```
-
-## usage
-### Android
-待更新
-
-#### 华为推送通道集成指南
-1. 确认已在信鸽管理台中「应用配置-厂商&海外通道」中填写相关的应用信息。通常，相关配置将在1个小时后生效，请您耐心等待，在生效后再进行下一个步骤
-2. 将集成好的App（测试版本）安装在测试机上，并且运行App
-3. 保持App在前台运行，尝试对设备进行单推/全推
-4. 如果应用收到消息，将App退到后台，并且杀掉所有App进程
-5. 再次进行单推/全推，如果能够收到推送，则表明厂商通道集成成功
 
 ###### 注意事项
 消息目前将其理解为两类：静默消息和普通通知
@@ -116,7 +90,7 @@ AppDelegate.m:
 
 /**
  收到通知消息的回调，通常此消息意味着有新数据可以读取（iOS 7.0+）
- 
+
  @param application  UIApplication 实例
  @param userInfo 推送时指定的参数
  @param completionHandler 完成回调
@@ -149,9 +123,9 @@ AppDelegate.m:
 	} else if ([response.actionIdentifier isEqualToString:@"xgaction002"]) {
 		NSLog(@"click from Action2");
 	}
-	
+
 	[[XGPush defaultManager] reportXGNotificationResponse:response];
-	
+
 	completionHandler();
 }
 

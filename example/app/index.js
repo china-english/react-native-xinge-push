@@ -13,7 +13,7 @@ import {
   TouchableNativeFeedback,
   TouchableHighlight
 } from 'react-native';
-import XGPush from 'react-native-xinge-push';
+import XGPush from 'react-native-xinge-push-fei';
 
 const Touchable = Platform.OS === 'android' ? TouchableNativeFeedback : TouchableHighlight;
 

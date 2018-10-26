@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^16.3.1",
     "react-native": "^0.52.3",
-    "react-native-xinge-push": "file:.."
+    "react-native-xinge-push-fei": "file:.."
   },
   "devDependencies": {
     "babel-jest": "^21.2.0",

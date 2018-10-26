@@ -341,7 +341,7 @@
 		C5A799FC1EBC7C41003E0295 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C5A799FE1EBC7C55003E0295 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C5A79A001EBC7C9E003E0295 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		DB008B2812E04E77BA0B2D4C /* XGPush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = XGPush.xcodeproj; path = "../node_modules/react-native-xinge-push/ios/XGPush.xcodeproj"; sourceTree = "<group>"; };
+		DB008B2812E04E77BA0B2D4C /* XGPush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = XGPush.xcodeproj; path = "../node_modules/react-native-xinge-push-fei/ios/XGPush.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1113,8 +1113,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
 				);
 				INFOPLIST_FILE = exampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1141,8 +1141,8 @@
 				DEVELOPMENT_TEAM = E38K7BFZYB;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
 				);
 				INFOPLIST_FILE = exampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1173,8 +1173,8 @@
 				DEVELOPMENT_TEAM = E38K7BFZYB;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
 				);
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1201,8 +1201,8 @@
 				DEVELOPMENT_TEAM = E38K7BFZYB;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-xinge-push/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-xinge-push-fei/ios/**",
 				);
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
